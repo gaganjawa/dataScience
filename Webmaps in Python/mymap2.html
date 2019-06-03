@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_a9c43bbc924d43238c93e658a2edf071 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_a9c43bbc924d43238c93e658a2edf071" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_a9c43bbc924d43238c93e658a2edf071 = L.map(
+        'map_a9c43bbc924d43238c93e658a2edf071', {
+        center: [18.559528, 73.802055],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_52b5b372a5774048af4edaebf2042c57 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_a9c43bbc924d43238c93e658a2edf071);
+    
+            var feature_group_7a4d2230645d4d18beafa390f87ec454 = L.featureGroup(
+                ).addTo(map_a9c43bbc924d43238c93e658a2edf071);
+        
+    
+        var marker_e03d41ecb9fe4165beec4c9ac8d1bb23 = L.marker(
+            [18.559528, 73.802055],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_7a4d2230645d4d18beafa390f87ec454);
+        
+    
+            var popup_e5995a8fcc31424fb98207a38fc06685 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7725d27d97e344fc89727362a61b9e74 = $(`<div id="html_7725d27d97e344fc89727362a61b9e74" style="width: 100.0%; height: 100.0%;">Technogeeks</div>`)[0];
+                popup_e5995a8fcc31424fb98207a38fc06685.setContent(html_7725d27d97e344fc89727362a61b9e74);
+            
+
+            marker_e03d41ecb9fe4165beec4c9ac8d1bb23.bindPopup(popup_e5995a8fcc31424fb98207a38fc06685)
+            ;
+
+            
+        
+    
+        var marker_d8005cb3498a46a78937127ae46dfa35 = L.marker(
+            [18.603414, 73.75343],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_7a4d2230645d4d18beafa390f87ec454);
+        
+    
+            var popup_54dc234ac037442ca6d2e2211394a267 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5dd44753fa02478e8571dda4d8da360e = $(`<div id="html_5dd44753fa02478e8571dda4d8da360e" style="width: 100.0%; height: 100.0%;">Home</div>`)[0];
+                popup_54dc234ac037442ca6d2e2211394a267.setContent(html_5dd44753fa02478e8571dda4d8da360e);
+            
+
+            marker_d8005cb3498a46a78937127ae46dfa35.bindPopup(popup_54dc234ac037442ca6d2e2211394a267)
+            ;
+
+            
+        
+</script>
